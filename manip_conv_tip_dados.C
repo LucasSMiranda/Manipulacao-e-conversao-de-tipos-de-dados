@@ -12,14 +12,18 @@
     printf("Soma: %d\n", soma);
     printf("Diferença: %d\n", diferenca);
     printf("Produto: %d\n", produto);
-    printf("Quociente: %d\n", quociente);*/
+    printf("Quociente: %d\n", quociente);
+    
+    return 0;
+     */
 
-    #include <stdio.h>
- 
 
     //Divisão de números inteiros
     /*
-int main() {
+
+    #include <stdio.h>
+     
+    int main() {
     int a = 7;
     int b = 2;
     int quociente = a / b; // Note que a divisão de 7 por 2 resulta em 3, pois a parte decimal é descartada
@@ -30,5 +34,41 @@ int main() {
 }
     */
  
+//manipulação de variáveis de ponto flutuante:
+  /*
+    #include <stdio.h>
+ 
+int main() {
+    float x = 5.5;
+    float y = 2.2;
+    float soma = x + y;
+    float diferenca = x - y;
+    float produto = x * y;
+    float quociente = x / y; // Divisão de ponto flutuante
+ 
+    printf("Soma: %.2f\n", soma);
+    printf("Diferença: %.2f\n", diferenca);
+    printf("Produto: %.2f\n", produto);
+    printf("Quociente: %.2f\n", quociente);
+ 
     return 0;
+}*/
+
+//Conversão implícita
+/*
+
+#include <stdio.h>
+ 
+int main() {
+    int a = 10;
+    float b = 3.5;
+    float resultado = a + b; // 'a' é convertido implicitamente para float
+ 
+    printf("Resultado: %.2f\n", resultado);
+ 
+    return 0;
+}*/
+
+
+   
 }
